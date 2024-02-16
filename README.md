@@ -1,4 +1,4 @@
-# Sudoku Sat Solver
+# Sudoku SMT Solver
 Simple 9x9 sudoku solver created with Tkinter and Z3
 
 # Dependencies
