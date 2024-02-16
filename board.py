@@ -65,9 +65,9 @@ def GetInputs(entries):
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.title("Sudoku Sat Solver")
+    root.title("Sudoku SMT Solver")
 
-    title = tk.Label(root, text="Sudoku Sat Solver", font='TkDefaultFont 18 bold')
+    title = tk.Label(root, text="Sudoku SMT Solver", font='TkDefaultFont 18 bold')
     label1 = tk.Label(root, text="Enter a puzzle: ")
     title.pack()
     label1.pack()
