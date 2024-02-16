@@ -17,8 +17,6 @@ def SudokuSolver(puzzle):
     if s.check() == sat:
         m = s.model()
         solution = [[m.evaluate(board[i][j]).as_long() for j in range(size)] for i in range(size)]
-        print("Solution:")
-        for row in solution:
-            print(row)
+        return solution
     else:
-        print("unsat")
+        return "unsat"
