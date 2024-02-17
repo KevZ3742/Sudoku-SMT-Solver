@@ -1,7 +1,10 @@
 # Sudoku SMT Solver
 Simple 9x9 sudoku solver created with Tkinter and Z3
 
-# Dependencies
+# Download
+[Download]()
+
+# Libraries Used
 Tkinter
 ```
 pip install tk
